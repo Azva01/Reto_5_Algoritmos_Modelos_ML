@@ -1,0 +1,26 @@
+---Evaluación conjunto de entrenamiento---
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.96    234055
+           1       0.55      0.11      0.18     21781
+
+    accuracy                           0.92    255836
+   macro avg       0.74      0.55      0.57    255836
+weighted avg       0.89      0.92      0.89    255836
+
+---Evaluación conjunto de prueba---
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95     58367
+           1       0.54      0.10      0.17      5592
+
+    accuracy                           0.91     63959
+   macro avg       0.73      0.55      0.56     63959
+weighted avg       0.89      0.91      0.89     63959
+
+---Accuracy score---
+0.9138666958520302
+
+Observaciones:
+
+El modelo base de regresion logistica muestra una exactitud del 91.3%, pero un recall muy bajo de .10, siendo incapaz de detectar 90 de cada 100 personas con riesgo de enfermedad. Esto no solo es extremadamente preocupante y riesgoso, tambien es completamente esperado, pues los datos proporcionados estan muy desbalanceados, gracias a que la gran mayoria de los datos son personas libres de esta enfermedad. En un futuro se busca procesar los datos para eliminar ese sesgo usando tecnicas de balanceo.
