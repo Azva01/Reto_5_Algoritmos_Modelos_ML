@@ -1,0 +1,22 @@
+---Evaluación conjunto de entrenamiento---
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.96    234055
+           1       0.55      0.11      0.18     21781
+
+    accuracy                           0.92    255836
+   macro avg       0.74      0.55      0.57    255836
+weighted avg       0.89      0.92      0.89    255836
+
+---Evaluación conjunto de prueba---
+              precision    recall  f1-score   support
+
+           0       0.92      0.99      0.95     58367
+           1       0.54      0.10      0.17      5592
+
+    accuracy                           0.91     63959
+   macro avg       0.73      0.55      0.56     63959
+weighted avg       0.89      0.91      0.89     63959
+
+---Accuracy score---
+0.9138666958520302
